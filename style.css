@@ -1,0 +1,52 @@
+/* This is the CSS for the todo app */
+
+*{
+  background-color: #565454;
+}
+body {
+    font-family: sans-serif;
+  }
+  
+  #app {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: .6em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .todo-item {
+    cursor: pointer;
+  }
+  
+  .todo-item.done {
+    text-decoration: line-through;
+  }
+  
