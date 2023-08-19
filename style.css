@@ -1,10 +1,21 @@
-*{
-  background-color: #4d4c4c;
-}
 
 #app{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50vh;
+}
+@media screen and (prefers-color-scheme: dark) {
+  h1, #add-task, p  {
+    color: #dad4d4;
+  }
+  *{
+    background-color: #2b2a2a;
+  }
+}
+@media screen and (prefers-color-scheme: light) {
+  p {
+    color: #000;
+    background-color: #fff;
+  }
 }
