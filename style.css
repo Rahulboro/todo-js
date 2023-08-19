@@ -1,10 +1,15 @@
 
-#app{
+.heading{
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 50vh;
 }
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+/* dark theme  */
 @media screen and (prefers-color-scheme: dark) {
   h1, #add-task, p  {
     color: #dad4d4;
