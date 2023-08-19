@@ -8,10 +8,21 @@
   display: flex;
   justify-content: center;
 }
+.formdiv{
+  margin: 0 20px 0 20px;
+}
+#new-task{
+  padding: 10px 30px ;
+  border-radius: .7em;
+}
+button{
+  padding: 10px 15px;
+  border-radius: .7em;
+}
 
 /* dark theme  */
 @media screen and (prefers-color-scheme: dark) {
-  h1, #add-task, p  {
+  h1, #add-task, p, #new-task {
     color: #dad4d4;
   }
   *{
