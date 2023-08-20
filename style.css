@@ -19,6 +19,10 @@ button{
   padding: 10px 15px;
   border-radius: .7em;
 }
+#todo-list{
+  display: flex;
+  justify-content: center;
+}
 
 /* dark theme  */
 @media screen and (prefers-color-scheme: dark) {
