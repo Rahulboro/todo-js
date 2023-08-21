@@ -3,6 +3,7 @@
 const app = document.getElementById("app");
 const newTaskInput = document.getElementById("new-task");
 const addTaskButton = document.getElementById("add-task");
+const todoListDiv = document.getElementById("todo-list-ul")
 const todoList = document.getElementById("todo-list");
 
 let todoItems = [];

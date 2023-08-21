@@ -24,6 +24,13 @@ button{
   justify-content: center;
 }
 
+#ul_div{
+  display: flex;
+}
+#todo_list{
+  justify-content: center;
+  align-items: center;
+}
 /* dark theme  */
 @media screen and (prefers-color-scheme: dark) {
   h1, #add-task, p, #new-task {
