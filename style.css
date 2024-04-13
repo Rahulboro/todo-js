@@ -9,7 +9,8 @@
   justify-content: center;
 }
 .formdiv{
-  margin: 0 20px 0 20px;
+  margin: 0 10px 0 10px;
+  display: flex;
 }
 #new-task{
   padding: 10px 30px ;
@@ -18,10 +19,15 @@
 button{
   padding: 10px 15px;
   border-radius: .7em;
+  margin-left: 50px;
+}
+#todo-list-ul{
+  position: absolute;
+  top: 60vh; left: 40vw;
 }
 #todo-list{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 #ul_div{
@@ -29,11 +35,10 @@ button{
 }
 #todo_list{
   justify-content: center;
-  align-items: center;
 }
 /* dark theme  */
 @media screen and (prefers-color-scheme: dark) {
-  h1, #add-task, p, #new-task {
+  h1, #add-task, p, #new-task #todo-list #todo-list-ul {
     color: #dad4d4;
   }
   *{
